@@ -1,11 +1,13 @@
-import { Story, Meta } from '@storybook/react/types-6-0'
-import { withKnobs } from '@storybook/addon-knobs'
+import { Story, Meta } from '@storybook/react'
 import Main from '.'
 
 export default {
   title: 'Main',
   component: Main,
-  decorators: [withKnobs]
+  args: {
+    title: 'title default',
+    description: 'description default'
+  }
 } as Meta
 
 export const Basic: Story = (args) => <Main {...args} />
