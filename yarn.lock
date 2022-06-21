@@ -3571,10 +3571,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.0.tgz#67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a"
   integrity sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==
 
-"@types/node@^17.0.39":
-  version "17.0.45"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.45.tgz#2c0fafd78705e7a18b7906b5201a522719dc5190"
-  integrity sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==
+"@types/node@^14.0.10 || ^16.0.0":
+  version "16.11.41"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.41.tgz#88eb485b1bfdb4c224d878b7832239536aa2f813"
+  integrity sha512-mqoYK2TnVjdkGk8qXAVGc/x9nSaTpSrFaGFm43BUH3IdoBV0nta6hYaGmdOvIMlbHJbUEVen3gvwpwovAZKNdQ==
 
 "@types/npmlog@^4.1.2":
   version "4.1.4"
@@ -11488,10 +11488,10 @@ pkg-up@3.1.0, pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-plop@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/plop/-/plop-3.1.0.tgz#a2a36146afc2d5baaf0069f442d5029cdfd070fd"
-  integrity sha512-bkKZ5X7V2hjH1ha5x8eX2mzyxM/sR166icNdQAbuAK5L4iHTT7fNKjV7VOpF3hBWtRNnzBoctjC3hC5syX5iYg==
+plop@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/plop/-/plop-3.1.1.tgz#7d86d16f829bd509cc76e2a0ff1c67ebf8d22067"
+  integrity sha512-NuctKmuNUACXBQn25bBr5oj/75nHxdKGwjA/+b7cVoj1sp+gTVqcc8eAr4QcNJgMPsZWRJBN2kMkgmsqbqV9gg==
   dependencies:
     "@types/liftoff" "^4.0.0"
     chalk "^5.0.1"
